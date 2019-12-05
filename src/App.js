@@ -3,6 +3,7 @@ import './App.css';
 import OperadorCondicional from './components/OperadorConcional';
 import IFInlineOperadorLogico from './components/IFInlineOperadorLogico&&';
 import EvitandoRenderizacaoComponente from './components/EvitandoRenderizacaoComponente';
+import Lista from './components/Lista';
 
 
 
@@ -13,6 +14,7 @@ class App extends Component {
         <IFInlineOperadorLogico />
         <OperadorCondicional />
         <EvitandoRenderizacaoComponente />
+        <Lista />
       </>
     )
   }
