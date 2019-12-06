@@ -25,10 +25,9 @@ const listaCliente = [
 
 const listar = (cliente, index) => {
     return (
-        <>
-        <li key={`cliente-${cliente.id}`}>{cliente.nome}</li>
-        <div>{`cliente-${cliente.id}`}</div>
-        </>
+        <li key={`cliente-${cliente.id}`}>{cliente.nome}
+           {` cliente-${cliente.id}`}
+        </li>
     )
 }
 
