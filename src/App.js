@@ -6,6 +6,7 @@ import EvitandoRenderizacaoComponente from './components/EvitandoRenderizacaoCom
 import Lista from './components/Lista';
 import ManipulandoEventos from './components/ManipulandoEventos';
 import ComponentesControlados from './components/ComponentesControlados';
+import ComponentesNaoControlados from './components/ComponentesNaoControlados';
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Lista />
         <ManipulandoEventos />
         <ComponentesControlados />
+        <ComponentesNaoControlados />
       </>
     )
   }
